@@ -1,9 +1,9 @@
 # Investigating PointNet++ for Point Cloud Generative Adversarial Networks
 
 ![alt text](planes_result.png)
-![alt text](planes_result2.png)
+![alt text](planes_result_2.png)
 ![alt text](chairs_result.png)
-![alt text](chairs_result2.png)
+![alt text](chairs_result_2.png)
 
 ## Introduction
 My final project for UMass Amherst graduate course CS 674: Intelligent Visual Computing. In this project, I developed and trained a Wasserstein Generative Adversarial Network with Gradient Penalty using Python and PyTorch. I trained models on point clouds sampled from the airplane and chair categories of the ShapeNetCore dataset. The trained models utilize neural networks to recognize the shape of a given class of 3D objects and generate original point clouds of that given class of objects. 
