@@ -1,11 +1,14 @@
 # Investigating PointNet++ for Point Cloud Generative Adversarial Networks
-Contains code files from Learning Representations and Generative Models For 3D Point Clouds by <a href="http://web.stanford.edu/~optas/" target="_blank">Panos Achlioptas</a>, <a href="http://web.stanford.edu/~diamanti/" target="_blank">Olga Diamanti</a>, <a href="http://mitliagkas.github.io" target="_blank">Ioannis Mitliagkas</a>, <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a>.
 
-![representative]()
-
+![alt text](planes_result.png)
+![alt text](chairs_result.png)
 
 ## Introduction
+My final project for UMass Amherst graduate course CS 674: Intelligent Visual Computing. In this project, I developed and trained a Wasserstein Generative Adversarial Network with Gradient Penalty using Python and PyTorch. I trained models on point clouds sampled from the airplane and chair categories of the ShapeNetCore dataset. The trained models utilize neural networks to recognize the shape of a given class of 3D objects and generate original point clouds of that given class of objects. 
+
 This project builds off of the work of [arXiv tech report](https://arxiv.org/abs/1707.02392).
+
+Contains original code as well as code files from Learning Representations and Generative Models For 3D Point Clouds by <a href="http://web.stanford.edu/~optas/" target="_blank">Panos Achlioptas</a>, <a href="http://web.stanford.edu/~diamanti/" target="_blank">Olga Diamanti</a>, <a href="http://mitliagkas.github.io" target="_blank">Ioannis Mitliagkas</a>, <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a>.
 
 ## References
 
