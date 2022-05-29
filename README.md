@@ -72,7 +72,7 @@ Instructions for training:
 
     i. Go to https://www.dropbox.com/s/vmsdrae6x5xws1v/shape_net_core_uniform_samples_2048.zip?dl=0,
        Download, extract folder shape_net_core_uniform_samples_2048 and move to inside
-        Matthew_Spahl_CS674FinalProject_Code/data
+        PointCloudGAN/data
 
     ii. Open PointCloudGAN/src/point_cloud_wgan_gp_pytorch.py
 
