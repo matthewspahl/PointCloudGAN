@@ -50,6 +50,7 @@ Requirements:
 
 ## Installation
 Instructions for Installing External Libraries and data
+    
     i. Make sure Python 3.8 and Miniconda are installed
     
     ii. Run: conda install pytorch torchvision cudatoolkit -c pytorch
@@ -99,6 +100,7 @@ Instructions for training:
          c. leave parameters as is, but batch size set on line 328, generator updates on line 324
 
 Instructions for testing trained GAN generator:
+    
     i. Run PointCloudGAN/src/demo_gan.py
 
     ii. Samples to generate an be modified on line 158
@@ -108,6 +110,7 @@ Instructions for testing trained GAN generator:
           can modify line 163 to use a different generator in the trained_models folder (not recommended)
 
 Instructions for evaluating discriminator accuracy on ModelNet10 (accuracy values provided in report):
+    
     i. Navigate to https://www.kaggle.com/datasets/balraj98/modelnet10-princeton-3d-object-dataset
        and download ModelNet10, extract, move to 
        /PointCloudGAN/data/modelnet10
